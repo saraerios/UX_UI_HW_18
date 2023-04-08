@@ -229,37 +229,43 @@ h3 {
     background-color: #B8B8AB;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 5px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    display: grid;
+    align-items: left;
   }
 
 .viewNueTravel {
+    display: grid;
     background-color: #B8B8AB;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 5px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    align-items: left;
   }
 
 
 .viewUSDOE {
+    display: grid;
     background-color: #B8B8AB;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 5px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    align-items: left;
   }
 
 h8 {
