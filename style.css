@@ -188,17 +188,16 @@ h3 {
 
 #myWork2 {
     display: grid;
-    display: flex;
-    grid-template-columns: (35%, 35%);
-    grid-template-rows: (3, 30%, 30%, 30%);
+    grid-template-columns: (2, auto, auto);
+    grid-template-rows: (3, auto, auto, auto);
     padding-left: 400px;
     padding-right: 400px;
-    padding-bottom: 10px;
     padding-bottom: 100px;
+    text-align: left;
     grid-template-areas: 
         "NueTravelText NueTravel2"
-        "Palette1 PaletteText"
-        "USDOE3 USDOEText"
+        "PaletteText Palette1"
+        "USDOEText USDOE3"
     ;
 }
 
@@ -243,38 +242,29 @@ h9 {
     display: grid;
     grid-area: NueTravel2;
 }
-Palette1 {
+.Palette1 {
     display: grid;
     grid-area: Palette1;
 }
-USDOE3 {
+.USDOE3 {
     display: grid;
     grid-area: USDOE3;
 }
 
 @media only screen and (max-width:600) {
-    #myWork2  {
+    #myWork2 {
         display: grid;
-        grid-template-columns: (1, 100%);
-        grid-template-rows: (11, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%);
-        padding-left: 10px;
-        padding-right: 10px;
+        grid-template-columns: (2, 1fr, 1fr);
+        grid-template-rows: (3, 1fr, 1fr, 1fr);
+        padding-left: 400px;
+        padding-right: 400px;
         padding-bottom: 10px;
-        min-height: fit-content;
         padding-bottom: 100px;
+        text-align: left;
         grid-template-areas: 
-            "NueTravel2"
-            "NueTravel21"
-            "NueTravel22"
-            "viewNueTravel"
-            "Palette1" 
-            "Palette11"
-            "Palette12"
-            "viewPallete"
-            "USDOE3" 
-            "USDOE31"
-            "USDOE32"
-            "viewUSDOE"
+            "NueTravelText NueTravel2"
+            "PaletteText Palette1"
+            "USDOEText USDOE3"
         ;
     }
 }
