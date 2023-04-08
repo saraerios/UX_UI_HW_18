@@ -186,20 +186,81 @@ h3 {
 
 
 
-#myWork2 {
+.NueTravelWork2 {
     display: grid;
-    grid-template-columns: (2, auto, auto);
-    grid-template-rows: (3, auto, auto, auto);
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: (1);
     padding-left: 400px;
     padding-right: 400px;
     padding-bottom: 100px;
     text-align: left;
     grid-template-areas: 
         "NueTravelText NueTravel2"
+    ;
+}
+
+.PaletteWork2 {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: (1);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    text-align: left;
+    grid-template-areas: 
         "PaletteText Palette1"
+    ;
+}
+
+.USDOEWork2 {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: (1);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    text-align: left;
+    grid-template-areas: 
         "USDOEText USDOE3"
     ;
 }
+
+.viewPalette {
+    background-color: #B8B8AB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.viewNueTravel {
+    background-color: #B8B8AB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.viewUSDOE {
+    background-color: #B8B8AB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 h8 {
     font-weight: bold;
