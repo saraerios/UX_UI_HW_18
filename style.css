@@ -214,7 +214,7 @@ h3 {
 
 .USDOEWork2 {
     display: grid;
-    grid-template-columns: repeat (2, 1fr);
+    grid-template-columns: repeat (2, 20%, 50%);
     grid-template-rows: (1);
     padding-left: 400px;
     padding-right: 400px;
